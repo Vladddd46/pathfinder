@@ -1,2 +1,4 @@
 pathfinder
 .DS_Store
+obj
+libmx.a
