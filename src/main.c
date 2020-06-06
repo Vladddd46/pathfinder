@@ -29,39 +29,23 @@ int main(int argc, char const *argv[]) {
     // Creating matrix with destinations between cities.
     mx_make_matrix((char *)argv[1], unique_cities, num_of_ucities, matrix);
 
-
-
-
-    /* Алгоритм Флойда */
-    //- находит кратчайшие расстояния между всема данными городами
-    //- функция алгоритма возвращает поинтер на связной список, в котором записаны свапы городов
+    /*
+     * Floyd`s - Warshall algorithm - searches the shortest distance between two cities.
+     * Fills matrix with shortest pathes and also add each swap route into linked list in order to
+     * restore path then.
+     */
     r_list *route_list = mx_algorithm(num_of_ucities, matrix, unique_cities);
-    /*==================*/
 
+    /*
+     * Sorting list of noted swaps(pathes) and deleting inappropriate nodes.
+     * 1. init list.
+     * 2. Deletes(Set variables to "NULL") repeated nodes (A->B == B->A)
+     * 3. sorting by distance. (algorithm can firstly find short path, but later it can be found shorted => thus, save only the shortest pathes.)
+     */
+    r_list *new_route_list =  mx_create_route_node("NULL","NULL","NULL",0,0,0);
+    mx_sort_route_list(route_list, new_route_list, unique_cities, num_of_ucities);
+    mx_sort_route_list2(new_route_list);
 
-
-  /* Сортировка route_list */
-  //(список путей с города A в город C через B город)
-    r_list *new_route_list =  mx_create_route_node("NULL","NULL","NULL",0,0,0);    // создаю связной список с нулевой нодой -> туда записываю отсортированный список1
-    mx_sort_route_list(route_list, new_route_list, unique_cities, num_of_ucities); // первая сортировка (принцип ее работы описан в самой функции)
-    mx_sort_route_list2(new_route_list); // вторая и послудняя сортировка (принцип ее работы описан в файле функции)
-    /*==================*/
-
-
-  /* Вывод в stdout */
-  mx_output(num_of_ucities, matrix, unique_cities, new_route_list);
-  /*==================*/
-
+    // Printing result on stdout.
+    mx_output(num_of_ucities, matrix, unique_cities, new_route_list);
 }
-
-
-
-
-
-
-
-
-
-
-
-
