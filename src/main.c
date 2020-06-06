@@ -3,12 +3,15 @@
 int main(int argc, char const *argv[]) {
 	mx_error_handler(argc, argv);
 
-
- 	/* нахожу массив уникальных городов */
+  /*
+   * Creating array of unique cities names. (Names of cities do not repeat)
+   * 1. number of unique cities.
+   * 2. init array.
+   * 3. fill array.
+   */
   int num_of_ucities = mx_number_of_unique_cities((char *)argv[1]);
  	char *unique_cities[num_of_ucities + 1];
  	mx_make_unique_cities_array((char *)argv[1], unique_cities);
- 	/*==================*/
 
 	
 	

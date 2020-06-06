@@ -61,8 +61,6 @@ SRC = ./mx_binary_search.c \
 	./mx_isdigit.c \
 	./mx_isalpha.c \
 	./mx_atoi.c \
-	./mx_number_of_unique_cities.c \
-	./mx_make_unique_cities_array.c \
 	./mx_elements_of_line.c \
 	./mx_make_matrix.c \
 	./mx_algorithm.c \
@@ -146,8 +144,6 @@ SRCS = ./src/mx_binary_search.c \
 	./src/mx_isdigit.c \
 	./src/mx_isalpha.c \
 	./src/mx_atoi.c \
-	./src/mx_number_of_unique_cities.c \
-	./src/mx_make_unique_cities_array.c \
 	./src/mx_elements_of_line.c \
 	./src/mx_make_matrix.c \
 	./src/mx_algorithm.c \
@@ -230,8 +226,6 @@ OBJ = ./mx_binary_search.o \
 	./mx_isdigit.o \
 	./mx_isalpha.o \
 	./mx_atoi.o \
-	./mx_number_of_unique_cities.o \
-	./mx_make_unique_cities_array.o \
 	./mx_elements_of_line.o \
 	./mx_make_matrix.o \
 	./mx_algorithm.o \
@@ -317,8 +311,6 @@ OBJO = ./obj/mx_binary_search.o \
 	./obj/mx_isdigit.o \
 	./obj/mx_isalpha.o \
 	./obj/mx_atoi.o \
-	./obj/mx_number_of_unique_cities.o \
-	./obj/mx_make_unique_cities_array.o \
 	./obj/mx_elements_of_line.o \
 	./obj/mx_make_matrix.o \
 	./obj/mx_algorithm.o \

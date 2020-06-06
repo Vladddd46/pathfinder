@@ -7,3 +7,7 @@ int mx_error_2(char const *argv[]);
 int mx_error_3(char const *argv[]);
 int mx_error_4(char const *argv[]);
 int mx_error_5(char const *argv[]);
+
+
+int  mx_number_of_unique_cities(char *argv);
+void mx_make_unique_cities_array(char *file_name, char **unique_cities);
