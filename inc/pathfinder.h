@@ -1,15 +1,18 @@
 #include "./libmx/inc/libmx.h"
 
+/*
+ * Structure, which describes found pathes from start city
+ * to end city over middle city.
+ */
 typedef struct route_list {
-	char *s; // start
-	char *m; // middle
-	char *e; // end
-	int a;   // расстояние с города start в middle
-	int b;   // расстояние с города middle до end
-	int c;   // сумма расстояния
+	char *s; // Name of start city.
+	char *m; // Name of middle city.
+	char *e; // Name of end city.
+	int a;   // Distance from start to middle.
+	int b;   // Distance from middle to end.
+	int c;   // Summ of distances.
 	struct route_list *next;
 }   r_list;
-/*=================*/
 
 // Input error handling.
 int mx_error_handler(int argc, char const *argv[]);

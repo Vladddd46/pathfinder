@@ -1,21 +1,14 @@
-/* Импорт Библиотек */
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <stdbool.h>
 #include <string.h>
-/*=================*/
 
-/* ---Структуры--- */
 typedef struct s_list {
 	void *data;
 	struct s_list *next;
 }   t_list;
-
-
-
-
 
 
 int mx_count_words(const char *str, char c);
