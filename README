@@ -1,15 +1,15 @@
-###Introduction
+##Introduction
 The project pathfinder was made, while studying process.
 Pathfinder is programm, which finds the shortest pathes 
 between given cities.
-###Quickstart
+##Quickstart
 Just write `make` and binary called 'pathfinder' will be
 compiled.
 To run programm:
 ./pathfinder file_name
 file_name - file, which contains information about distances
 between cities.
-###File Syntax:
+##File Syntax:
 number_of_cities$
 A-B,x$
 B-C,Y$
@@ -17,7 +17,7 @@ C-D,Z$
 PS. 
 $ - newline
 number_of_cities - must be number of unique cities.
-###Example:
+##Example:
 File:
 4$
 Greenland-Bananal,8$
