@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 /* 
 функция вставляет поочередно в массив insert_element_1 и insert_element_2 в 

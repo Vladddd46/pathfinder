@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 /*
 Функция вывода

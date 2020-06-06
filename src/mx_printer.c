@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 /*
 функция для вывода, на случай, если между городами

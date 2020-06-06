@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 /* 
 функция копирует связной список r_list list в r_list dst

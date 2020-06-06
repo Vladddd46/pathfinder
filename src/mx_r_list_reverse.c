@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 r_list *mx_r_list_reverse(r_list *list)
 {

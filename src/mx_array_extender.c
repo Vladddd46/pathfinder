@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 void mx_array_extender(int num_of_cities, char *array[num_of_cities], char *insert_element, int insert_index)
 {

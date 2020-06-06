@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 void mx_array_garbager(int num_of_cities,  int arr_int[num_of_cities])
 {

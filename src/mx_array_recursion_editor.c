@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 
 void mx_array_recursion_editor(r_list *list, int num_of_cities, char *array[num_of_cities],  int arr_int[num_of_cities], int pure_arr_int[num_of_cities])

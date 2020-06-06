@@ -61,28 +61,6 @@ SRC = ./mx_binary_search.c \
 	./mx_isdigit.c \
 	./mx_isalpha.c \
 	./mx_atoi.c \
-	./mx_elements_of_line.c \
-	./mx_algorithm.c \
-	./mx_output.c \
-	./mx_printer.c \
-	./mx_big_array_printer.c \
-	./mx_array_filler.c \
-	./mx_array_extender.c \
-	./mx_int_array_extender.c \
-	./mx_array_garbager.c \
-	./mx_array_printer.c \
-	./mx_outer_array_recursion_editor.c \
-	./mx_array_recursion_editor.c \
-	./mx_first_line_reader.c \
-	./mx_list_value_validator.c \
-	./mx_create_route_node.c \
-	./mx_push_route_back.c \
-	./mx_push_route_front.c \
-	./mx_sort_route_list.c \
-	./mx_sort_route_list2.c \
-	./mx_is_in_list.c \
-	./mx_copy_r_list.c \
-	./mx_r_list_reverse.c \
 
 	
 
@@ -143,29 +121,6 @@ SRCS = ./src/mx_binary_search.c \
 	./src/mx_isdigit.c \
 	./src/mx_isalpha.c \
 	./src/mx_atoi.c \
-	./src/mx_elements_of_line.c \
-	./src/mx_algorithm.c \
-	./src/mx_output.c \
-	./src/mx_printer.c \
-	./src/mx_big_array_printer.c \
-	./src/mx_array_filler.c \
-	./src/mx_array_extender.c \
-	./src/mx_int_array_extender.c \
-	./src/mx_array_garbager.c \
-	./src/mx_array_printer.c \
-	./src/mx_outer_array_recursion_editor.c \
-	./src/mx_array_recursion_editor.c \
-	./src/mx_first_line_reader.c \
-	./src/mx_list_value_validator.c \
-	./src/mx_create_route_node.c \
-	./src/mx_push_route_back.c \
-	./src/mx_push_route_front.c \
-	./src/mx_sort_route_list.c \
-	./src/mx_sort_route_list2.c \
-	./src/mx_is_in_list.c \
-	./src/mx_copy_r_list.c \
-	./src/mx_r_list_reverse.c \
-
 
 OBJ = ./mx_binary_search.o \
 	./mx_memrchr.o \
@@ -224,31 +179,6 @@ OBJ = ./mx_binary_search.o \
 	./mx_isdigit.o \
 	./mx_isalpha.o \
 	./mx_atoi.o \
-	./mx_elements_of_line.o \
-	./mx_algorithm.o \
-	./mx_output.o \
-	./mx_printer.o \
-	./mx_big_array_printer.o \
-	./mx_array_filler.o \
-	./mx_array_extender.o \
-	./mx_int_array_extender.o \
-	./mx_array_garbager.o \
-	./mx_array_printer.o \
-	./mx_outer_array_recursion_editor.o \
-	./mx_array_recursion_editor.o \
-	./mx_first_line_reader.o \
-	./mx_list_value_validator.o \
-	./mx_create_route_node.o \
-	./mx_push_route_back.o \
-	./mx_push_route_front.o \
-	./mx_sort_route_list.o \
-	./mx_sort_route_list2.o \
-	./mx_is_in_list.o \
-	./mx_copy_r_list.o \
-	./mx_r_list_reverse.o \
-
-
-
 
 
 OBJO = ./obj/mx_binary_search.o \
@@ -308,28 +238,6 @@ OBJO = ./obj/mx_binary_search.o \
 	./obj/mx_isdigit.o \
 	./obj/mx_isalpha.o \
 	./obj/mx_atoi.o \
-	./obj/mx_elements_of_line.o \
-	./obj/mx_algorithm.o \
-	./obj/mx_output.o \
-	./obj/mx_printer.o \
-	./obj/mx_big_array_printer.o \
-	./obj/mx_array_filler.o \
-	./obj/mx_array_extender.o \
-	./obj/mx_int_array_extender.o \
-	./obj/mx_array_garbager.o \
-	./obj/mx_array_printer.o \
-	./obj/mx_outer_array_recursion_editor.o \
-	./obj/mx_array_recursion_editor.o \
-	./obj/mx_first_line_reader.o \
-	./obj/mx_list_value_validator.o \
-	./obj/mx_create_route_node.o \
-	./obj/mx_push_route_back.o \
-	./obj/mx_push_route_front.o \
-	./obj/mx_sort_route_list.o \
-	./obj/mx_sort_route_list2.o \
-	./obj/mx_is_in_list.o \
-	./obj/mx_copy_r_list.o \
-	./obj/mx_r_list_reverse.o \
 
 
 CFLGS = -std=c11 -Wall -Wextra -Wpedantic -Werror 

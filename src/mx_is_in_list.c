@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 /* данная функция проверяет наличие узла node 
 у которого 	node->s == start и 

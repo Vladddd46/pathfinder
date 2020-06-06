@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 void mx_big_array_printer(int num_of_cities, char *array[num_of_cities],  int arr_int[num_of_cities])
 {

@@ -1,4 +1,4 @@
-#include "libmx.h"
+#include "pathfinder.h"
 
 
 r_list *mx_algorithm(int num_of_cities, int matrix[num_of_cities][num_of_cities], char **unique_cities)
