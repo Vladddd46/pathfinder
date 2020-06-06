@@ -1,8 +1,8 @@
-### Introduction
+###Introduction
 The project pathfinder was made, while studying process.
 Pathfinder is programm, which finds the shortest pathes 
 between given cities.
-### Quickstart
+###Quickstart
 Just write `make` and binary called 'pathfinder' will be
 compiled.
 To run programm:
