@@ -17,7 +17,8 @@ SRC = ./src/main.c\
 	./src/mx_error_4.c\
 	./src/mx_error_5.c\
 	./src/mx_number_of_unique_cities.c\
-	./src/mx_make_unique_cities_array.c
+	./src/mx_make_unique_cities_array.c\
+	./src/mx_make_matrix.c\
 
 INCS = ./pathfinder.h
 
@@ -31,6 +32,7 @@ SRCS = ./main.c\
 	   ./mx_error_5.c\
 	   ./mx_number_of_unique_cities.c\
 	   ./mx_make_unique_cities_array.c\
+	   ./mx_make_matrix.c\
 
 OBJ = ./main.o\
 	./mx_error_handler.o\
@@ -42,6 +44,7 @@ OBJ = ./main.o\
 	./mx_error_5.o\
 	./mx_number_of_unique_cities.o\
 	./mx_make_unique_cities_array.o\
+	./mx_make_matrix.o\
 
 all: install uninstall
 	

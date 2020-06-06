@@ -97,7 +97,6 @@ int mx_atoi(const char *s);
 
 /* Алгоритм и создание матрицы */
 void mx_elements_of_line(char *line, char *result[3]);
-void mx_make_matrix(char *file_name, char **unique_cities, int num_of_cities, int matrix[num_of_cities][num_of_cities]);
 r_list *mx_algorithm(int num_of_cities, int matrix[num_of_cities][num_of_cities], char **unique_cities);
 /*=================*/
 

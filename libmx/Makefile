@@ -62,7 +62,6 @@ SRC = ./mx_binary_search.c \
 	./mx_isalpha.c \
 	./mx_atoi.c \
 	./mx_elements_of_line.c \
-	./mx_make_matrix.c \
 	./mx_algorithm.c \
 	./mx_output.c \
 	./mx_printer.c \
@@ -145,7 +144,6 @@ SRCS = ./src/mx_binary_search.c \
 	./src/mx_isalpha.c \
 	./src/mx_atoi.c \
 	./src/mx_elements_of_line.c \
-	./src/mx_make_matrix.c \
 	./src/mx_algorithm.c \
 	./src/mx_output.c \
 	./src/mx_printer.c \
@@ -227,7 +225,6 @@ OBJ = ./mx_binary_search.o \
 	./mx_isalpha.o \
 	./mx_atoi.o \
 	./mx_elements_of_line.o \
-	./mx_make_matrix.o \
 	./mx_algorithm.o \
 	./mx_output.o \
 	./mx_printer.o \
@@ -312,7 +309,6 @@ OBJO = ./obj/mx_binary_search.o \
 	./obj/mx_isalpha.o \
 	./obj/mx_atoi.o \
 	./obj/mx_elements_of_line.o \
-	./obj/mx_make_matrix.o \
 	./obj/mx_algorithm.o \
 	./obj/mx_output.o \
 	./obj/mx_printer.o \
