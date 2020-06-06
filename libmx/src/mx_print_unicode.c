@@ -1,8 +1,6 @@
 #include "libmx.h"
 
-
- void mx_print_unicode(wchar_t c)
- {
+void mx_print_unicode(wchar_t c) {
 
  	char str[4];
 
@@ -32,4 +30,3 @@
    }
    write(1, str, mx_strlen(str));
  }
-

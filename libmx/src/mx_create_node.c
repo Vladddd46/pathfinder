@@ -1,15 +1,13 @@
 #include "libmx.h"
 
 t_list *mx_create_node(void *data){
-
-	//выделяю память под узел и привожу к нужному типу данных
-	t_list *node = malloc(sizeof(t_list));
-
-	node->data = data;
-	node->next = NULL;
-
-
-	return node;
+    t_list *node = (t_list *)malloc(sizeof(t_list));
+    if (node == NULL) {
+        char *msg = "Malloc error\n";
+        write(2, msg, (int)strlen(msg));
+        exit(1);
+    }
+    node->data = data;
+    node->next = NULL;
+    return node;
 }
-
-

@@ -1,21 +1,14 @@
 #include "libmx.h"
 
 int mx_sqrt(int x){
-
-	//проверка 0 ,1 и отрицательных значений
-	if (x == 1 || x == 0){
-		return x;
-	}
-	else if (x < 0){
-		return 0;
-	}
-
-	int start = 1;
-	int end = x / 2;
-	int ans;
-
-
-	if (x / 2 > 46340)
+    if (x == 1 || x == 0)
+        return x;
+    else if (x < 0)
+        return 0;
+    int start = 1;
+    int end = x / 2;
+    int ans;
+    if (x / 2 > 46340)
         end = 46340;
         while (start <= end) {
         int middle = (start + end) / 2;
@@ -25,12 +18,8 @@ int mx_sqrt(int x){
             start = middle + 1;
             ans = 0;
         }
-        else {
+        else
             end = middle - 1;
-        }
     }
     return ans;
-
 }
-
-

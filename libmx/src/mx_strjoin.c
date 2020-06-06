@@ -1,26 +1,29 @@
-#include "libmx.h"
+#include"libmx.h"
 
-char *mx_strjoin(const char *s1, const char *s2){
-	while (s1 && s2){
-		int len_s1 = mx_strlen(s1);
-		int len_s2 = mx_strlen(s2);
-		int length = len_s1 + len_s2;
-		char *concatenated_str = mx_strnew(length);
-		int i = 0;
-		while (s1[i]){
-			concatenated_str[i] = s1[i];
-			i++;}
-		int j = 0;
-		while (s2[j]){
-			concatenated_str[i] = s2[j];
-			j++;
-			i++;}
-		return concatenated_str;}
-	if (s1){
-		return (char *)s1;}
-	else if (s2){
-		return (char *)s2;}
-	return NULL;}
+char *mx_strjoin(const char *s1, const char *s2) {
+    if(s1 == NULL && s2 == NULL) return NULL;
 
+    if(s1 == NULL) {
+        int len      = mx_strlen(s2);
+        char *result = mx_strnew(len);
+        result       = mx_strcpy(result ,s2);
+        return result;
+    }
+    if(s2 == NULL) {
+        int len      = mx_strlen(s1);
+        char *result = mx_strnew(len);
+        result       = mx_strcpy(result, s1);
+        return result;
+    }
+    else {
+        int len1 = mx_strlen(s1);
+        int len2 = mx_strlen(s2);
+        char *cat_str  = mx_strnew(len1 + len2);
 
-
+        for(int i = 0; i < len1; i++)
+            cat_str[i] = s1[i];
+        for(int i = len1; i < len1 + len2; i++)
+            cat_str[i] = s2[i - len1];
+        return cat_str;
+    }
+}

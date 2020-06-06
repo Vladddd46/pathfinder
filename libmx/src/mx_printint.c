@@ -3,12 +3,9 @@
 void mx_printint(int n) {
     long a = n;
 
-    //проверка на 0
-    if(a == 0) {
+    if(a == 0)
         mx_printchar('0');
-    }
 
-    //проверяем на отрицательное значение
     if(a < 0) {
         a *= -1;
         mx_printchar('-');
@@ -28,6 +25,3 @@ void mx_printint(int n) {
         num /= 10;        
     }
 }
-
-
-

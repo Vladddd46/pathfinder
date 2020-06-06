@@ -1,7 +1,7 @@
 #include "libmx.h"
 
 int mx_atoi(const char *s) {
-	int n = 0;
+    int n = 0;
     while( *s >= '0' && *s <= '9' ) {
         n *= 10;
         n += *s++;
@@ -9,5 +9,3 @@ int mx_atoi(const char *s) {
     }
     return n;
 }
-
-

@@ -37,7 +37,6 @@ SRC = ./mx_binary_search.c \
 	./mx_push_back.c \
 	./mx_push_front.c \
 	./mx_quicksort.c \
-	./mx_read_line.c \
 	./mx_realloc.c \
 	./mx_replace_substr.c \
 	./mx_sort_list.c \
@@ -98,7 +97,6 @@ SRCS = ./src/mx_binary_search.c \
 	./src/mx_push_back.c \
 	./src/mx_push_front.c \
 	./src/mx_quicksort.c \
-	./src/mx_read_line.c \
 	./src/mx_realloc.c \
 	./src/mx_replace_substr.c \
 	./src/mx_sort_list.c \
@@ -156,7 +154,6 @@ OBJ = ./mx_binary_search.o \
 	./mx_push_back.o \
 	./mx_push_front.o \
 	./mx_quicksort.o \
-	./mx_read_line.o \
 	./mx_realloc.o \
 	./mx_replace_substr.o \
 	./mx_sort_list.o \
@@ -215,7 +212,6 @@ OBJO = ./obj/mx_binary_search.o \
 	./obj/mx_push_back.o \
 	./obj/mx_push_front.o \
 	./obj/mx_quicksort.o \
-	./obj/mx_read_line.o \
 	./obj/mx_realloc.o \
 	./obj/mx_replace_substr.o \
 	./obj/mx_sort_list.o \
