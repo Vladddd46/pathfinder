@@ -1,19 +1,31 @@
-Implementation of Floyd`s algorithm.
-Finds the shortest paths between cities.
-Add file into this directory, with cities routes
-Syntax:
-<num_of_cities>\n # unique number (cities must not repeat)
-<City1>-<City2>,<destination between these cities>\n
-...\n
-<CityN>-<CityN>,<destination>\n
-Example:
+### Introduction
+The project pathfinder was made, while studying process.
+Pathfinder is programm, which finds the shortest pathes 
+between given cities.
+### Quickstart
+Just write `make` and binary called 'pathfinder' will be
+compiled.
+To run programm:
+./pathfinder file_name
+file_name - file, which contains information about distances
+between cities.
+###File Syntax:
+number_of_cities$
+A-B,x$
+B-C,Y$
+C-D,Z$
+PS. 
+$ - newline
+number_of_cities - must be number of unique cities.
+###Example:
+File:
 4$
 Greenland-Bananal,8$
 Fraser-Greenland,10$
 Bananal-Fraser,3$
 Java-Fraser,5$
 
-Output in stdout:
+Output in stdout will look like:
 ========================================$
 Path: Greenland -> Bananal$
 Route: Greenland -> Bananal$
