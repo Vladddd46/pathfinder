@@ -47,11 +47,12 @@ void mx_array_recursion_editor(r_list *list, int num_of_cities, char *array[num_
 
 char *mx_first_line_reader(char *str);
 int mx_list_value_validator(t_list **list, void *data);
-r_list *mx_create_route_node(char *start, char *middle, char *end, int s_distance, int m_distance, int e_distance);
+int mx_is_in_list(r_list *list, char *start, char *end);
 void mx_push_route_back(r_list **list, char *start, char *middle, char *end, int s_distance, int m_distance, int e_distance);
 void mx_push_route_front(r_list **list, char *start, char *middle, char *end, int s_distance, int m_distance, int e_distance);
 void mx_sort_route_list(r_list *list, r_list *new_list, char **unique_cities, int num_of_cities);
 void mx_sort_route_list2(r_list *new_route_list);
-int mx_is_in_list(r_list *list, char *start, char *end);
 r_list *mx_copy_r_list(r_list *list);
 r_list *mx_r_list_reverse(r_list *list);
+r_list *mx_create_route_node(char *start, char *middle, char *end, int s_distance, int m_distance, int e_distance);
+

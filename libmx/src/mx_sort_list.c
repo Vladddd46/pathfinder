@@ -3,15 +3,12 @@
 /*
  * Sorts the list’s contents in ascending order. 
  * Func. cmp returns true if a > b and false in other cases.
+ *Example:
+ * bool cmp1(int *a, int *b){  
+ *   printf("%d\n", *(int *)a);
+ *   return *a>*b;
+ * }
  */
-
-/*
-Example:
-bool cmp1(int *a, int *b){  
-    printf("%d\n", *(int *)a);
-    return *a>*b;
-}
-*/
 
 t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *, void *)) {
     t_list *sorted_lst = lst;
