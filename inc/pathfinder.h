@@ -1,4 +1,4 @@
-#include "./libmx/inc/libmx.h"
+#include "libmx.h"
 
 /*
  * Structure, which describes found pathes from start city
