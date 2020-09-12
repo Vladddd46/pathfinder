@@ -11,9 +11,9 @@
 </ul>
 </p>
 <p> File syntax:<br>
-  [int - number of unique cities]\n
-  City1-City2,[int - distance between this cities]\n
-  CityX-CityY,[int - distance between this cities]\n
+  [int - number of unique cities]\n<br>
+  City1-City2,[int - distance between this cities]\n<br>
+  CityX-CityY,[int - distance between this cities]\n<br>
   
 </p>
 <h2>Overview</h2>
