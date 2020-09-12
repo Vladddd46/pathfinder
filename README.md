@@ -10,7 +10,12 @@
     <li>If you want to use your own data, you should create file with the same syntax as in <b>example</b> file.</li>
 </ul>
 </p>
-
+<p> File syntax:<br>
+  [int - number of unique cities]\n
+  City1-City2,[int - distance between this cities]\n
+  CityX-CityY,[int - distance between this cities]\n
+  
+</p>
 <h2>Overview</h2>
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/11888485/92994777-d7a86380-f505-11ea-9629-431559ff1a7e.gif)
