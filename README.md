@@ -7,7 +7,8 @@
   <ul>
     <li>First you need to <b>compile</b> the project. Just write <em><b>make</b></em> in root directory. After compilation <b>pathfinder</b> file appears in root directory.</li>
     <li>To test program you can use my default example(contained in root directory). Write <b>./pathfinder example</b></li>
-  </ul>
+    <li>If you want to use your own data, you should create file with the same syntax as in <b>example</b> file.</li>
+</ul>
 </p>
 
 <h2>Overview</h2>
