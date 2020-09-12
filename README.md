@@ -5,7 +5,8 @@
 <h2>Quickstart</h2>
 <p>
   <ul>
-    <li>First you need to <b>compile</b> the project. Just write <em><b>make</b></em> in root directory.</li>
+    <li>First you need to <b>compile</b> the project. Just write <em><b>make</b></em> in root directory. After compilation <b>pathfinder</b> file appears in root directory.</li>
+    <li>To test program you can use my default example(contained in root directory). Write <b>./pathfinder example</b></li>
   </ul>
 </p>
 
