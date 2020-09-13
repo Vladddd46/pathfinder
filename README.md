@@ -2,6 +2,13 @@
 <p>This is implementation of <b>the Floyd-Warshall algorithm</b>.</p>
 <p>In computer science, the <b>Floyd–Warshall algorithm</b> (also known as Floyd's algorithm, the Roy–Warshall algorithm, the Roy–Floyd algorithm, or the WFI algorithm) is an algorithm for finding shortest paths in a weighted graph with positive or negative edge weights (but with no negative cycles).</p>
 <p>For more details <a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">Wiki</a>.</p>
+
+<h2>Compilation</h2>
+<ul> 
+ <li>To <b>compile</b> write <i><b>`make`</b></i> in root directory.</li>
+ <li>Compilation was done on <b>MacOS</b>. Other <b>OS</b> were not tested.</li>
+</ul>
+
 <h2>Quickstart</h2>
 <p>
   <ul>
